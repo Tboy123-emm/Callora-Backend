@@ -1,0 +1,18 @@
+{
+  "default_branch": "main",
+  "branches": [
+    "fix/1275-classify-soroban-errors-by-type",
+    "fix/1278-async-rejection-handling",
+    "main"
+  ],
+  "parent": {
+    "fix/1275-classify-soroban-errors-by-type": "main",
+    "fix/1278-async-rejection-handling": "main",
+    "main": null
+  },
+  "order": [
+    "main",
+    "fix/1275-classify-soroban-errors-by-type",
+    "fix/1278-async-rejection-handling"
+  ]
+}
